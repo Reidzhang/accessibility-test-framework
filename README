@@ -1,3 +1,8 @@
+This test framework is created by Google under eyes-free project.
+TCAT will only use this framework to test accessibility features
+on different Android apps.
+
+
 Accessibility Test Framework for Android
 ----------------------------------------
 To help people with disabilities access Android apps, developers of those apps
