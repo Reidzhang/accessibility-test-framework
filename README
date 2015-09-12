@@ -15,6 +15,16 @@ dispatched by an app.
 For more information about AccessibilityEvent, see:
 https://developer.android.com/reference/android/view/accessibility/AccessibilityEvent.html
 
+For querying apps to do accessibility feature tests, we are using PlaystoreCralwer
+created by MarcelloLins and modified some of features on crawler to fit our purpose.
+The new version of crawler can query apps from developers you are interested. It will
+also filter any apps missing informations on application’s name.
+As for storing those apps’ informations, we are using MongoDB, which is free and easy to
+use.
+
+For more information about PlaystoreCrawler, see:
+https://github.com/uyvunk/PlayStoreCrawler/
+
 Accessibility Test Framework for Android
 ----------------------------------------
 To help people with disabilities access Android apps, developers of those apps
